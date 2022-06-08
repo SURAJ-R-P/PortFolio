@@ -1,0 +1,253 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/* .arrow a {
+    color:black 
+    text-decoration: none; 
+}
+
+<div class="arrow animated">
+      <a class="fa fa-arrow-down fa-2x" href="#"></a>
+    </div>
+.arrow {
+  text-align: end;
+  padding-top: 90px;
+  padding-right: 20px;
+  margin: 8% 0;
+} */
+
+/* @keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+} */
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #0BCEAF;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--bs-dark);
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.btn {
+    padding: 10px 25px;
+    border-radius: 100px;
+    pointer-events: cursor;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .about-img{
+      margin-top: 10px;
+     }
+}
+.hero-text{
+    margin-top: 150px;
+}
+.typed-cursor {
+    font-size: 45px;
+    color: #ffffff;
+}
+.position-absolute{
+    font-weight: 700;
+    
+}
+
+a {
+     color: var(--bs-primary);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #078571;
+    text-decoration: underline;
+}
+.navbar-light {
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+.dropdown-menu .dropdown-item{
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.dropdown-menu .dropdown-item:hover
+{
+  color: #0BCEAF;
+}
+.dropdown-menu .dropdown-item.active{
+    color: var(--bs-light);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+ } 
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link,
+    .dropdown-menu .dropdown-item {
+        padding: 10px 0;
+        background-color: var(--bs-dark);
+        color: white;
+    }
+}
+
+.social-links a{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+.social-links a:hover{
+    color: black;
+}
+
+.abouts ul.nav-pills{
+    border: 0.5px solid var(--bs-dark);
+    border-radius: 50px;
+}
+.abouts ul li .nav-link{
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.45s cubic-bezier(0,0,0,2.1);
+    display: inline-block;
+    color: var(--bs-danger);
+    border: 0;
+}
+.abouts .skill{
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.abouts .skill .progress{
+    height: 10px;
+    border-radius: 15px;
+    box-shadow: none;
+    background-color: lightgray;
+}
+@media (max-width: 991.98px){
+    .abouts ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }
+}
+@media (max-width:768.99px){
+    .abouts ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+} 
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.service-box{
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+      width: 400px;
+      margin: 20px;
+      cursor: pointer;
+      transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+}
+
+@media (max-width:991px){
+    .service-box{
+        width: 260px;
+        margin: 50px;
+    }
+}
+.service-box:hover{
+    box-shadow: 0px 1px 13px rgba(6, 5, 5, 0.705);
+    transform: translateY(-5px);  
+}
+
+.portFolio-card .card{
+    height: 100%;
+    min-height: 450px;
+    overflow: hidden;
+    border: 1px solid var(--bs-primary);
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px var(--bs-dark);
+}
+.portFolio-card .card span{
+    transition: background-position 4s ease-in-out 0s;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+.portFolio-card .card span:hover{
+    background-position: bottom center;
+}
+.user-content{
+    color: var(--bs-danger);
+}
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: var(--bs-dark);
+}
+
+.ratings i {
+    color: blue
+}
+
+.footer-link a{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.footer-link a:hover{
+    color: white;
+}

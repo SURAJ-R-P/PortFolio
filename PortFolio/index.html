@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Icon style font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- Navigation Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg navbar-light bg-light py-3 py-lg-0 px-lg-5">
+        <div class="container">
+          <a class="navbar-brand ml-lg-3" href="index.html">
+            <h1 class="m-0 display-5"><span><img src="./assets/favicon.jpg" class="logo img-fluid" alt="logo"></span><span class="text-primary">Port</span>Folio</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse px-lg-3" id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto py-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home"><i class="fa-solid fa-house-user"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" data-bs-toggle="tooltip" data-bs-placement="bottom" title="About"><i class="fa-regular fa-address-card"></i> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pilltab" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Skill"><i class="fa-solid fa-code"></i> Skill</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">
+                  More
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#service">Service</a></li>
+                  <li><a class="dropdown-item" href="#portFolio">PortFolio</a></li>
+                  <li><a class="dropdown-item" href="#review">Review</a></li>
+                  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-map-location-dot" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Location"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"></i></a>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-menu d-none d-lg-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hire Me" style="background-color:var(--bs-primary); color: #ffffff;"><i class="fa-regular fa-user"></i> Hire Me</a>
+        </div>
+      </nav>
+    <!-- Navigation End-->
+
+    <!-- Header Start-->
+    <div class="container-fluid bg-dark d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12 hero-text text-center">
+                    <h3 class="text-white font-weight-normal mb-3" data-aos="zoom-in-right">Hello, my name</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1500" style="-webkit-text-stroke: 4px #ffffff;">Suraj Prajapati</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Full Stack Developer, Web Designer, Web Developer, Front End Developer, Back End Developer, Sql Developer, Dot Net Developer, Apps Designer, Apps Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-mg-auto pt-5">
+                        <a href="./CV/Suraj R Prajapati Resume.pdf" download class="btn btn-light mr-4" target="_blank" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click To Download">Download CV <i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="about-img col-lg-6 col-md-6 col-12 ">
+                    <img class="img-fluid w-100% rounded-circle shadow-sm mx-auto d-block" src="./assets/2022-05-11.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- About Start-->
+    <div class="abouts container-fluid py-5" id="about">
+      <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">About</h1>
+          <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+        </div>
+        <div class="row align-items-center" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <picture>
+              <source media="(max-width : 997px)" srcset="./assets/about2.png">
+              <img class="img-fluid rounded w-100%"  src="./assets/About.png" alt="About Us">
+            </picture>
+        </div>
+        <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+          <div class="my-3 my-lg-0">
+            <h3 class="text-primary">Full Stack Developer</h3>
+            <p class="text-dark">Hi, I am Suraj, I am a Full Stack Developer. I believe that coding is a very powerful tool that enhances efficiency 
+              in life, for both major and minor things and interestingly that was one of my major insights/observations during one of my projects.</p>
+          </div>
+          <div class="pt-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" id="pilltab">
+            <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-My-Skills-tab" data-bs-toggle="pill" data-bs-target="#pills-My-Skills" type="button" role="tab" aria-controls="pills-My-Skills" aria-selected="false">My-Skills</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Education-tab" data-bs-toggle="pill" data-bs-target="#pills-Education" type="button" role="tab" aria-controls="pills-Education" aria-selected="false">Education</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Experience-tab" data-bs-toggle="pill" data-bs-target="#pills-Experience" type="button" role="tab" aria-controls="pills-Experience" aria-selected="false">Experience</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Certification-tab" data-bs-toggle="pill" data-bs-target="#pills-Certification" type="button" role="tab" aria-controls="pills-Certification" aria-selected="false">Certification</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="text-dark tab-pane fade show active" id="pills-My-Skills" role="tabpanel" aria-labelledby="pills-My-Skills-tab">
+                <div class="skill">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">HTML</h6>
+                    <h6 class="font-weight-bold">95%</h6>
+                  </div>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"  style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">CSS</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 90%" role="progressbar"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+             <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">JavaScript</h6>
+                    <h6 class="font-weight-bold">75%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">BootStrap</h6>
+                    <h6 class="font-weight-bold">80%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>                                   
+            </div>
+            <div class="skill">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Dot Net</h6>
+                    <h6 class="font-weight-bold">75%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Sql</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped  bg-dark" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+            </div>
+            <div class="table-responsive-lg-md-sm tab-pane fade" id="pills-Education" role="tabpanel" aria-labelledby="pills-Education-tab">
+              <table class="table table-hover table-sm table-bordered border-primary text-center">
+                  <thead class="table-primary">
+                    <tr>
+                      <th scope="col">Education</th>
+                      <th scope="col">Name of the College/Institute</th>
+                      <th scope="col">University/Board</th>
+                      <th scope="col">Year of passing</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>B..S.C Information Technology</td>
+                      <td>N. R. SWAMY COLLEGE OF COMMERCE & ECONOMIC & SMT. THIRUMALI COLLEGE OF SCIENCE</td>
+                      <td>MUMBAI UNIVERSITY</td>
+                      <td>2020</td>
+                    </tr>
+                    <tr>
+                      <td>H.S.C</td>
+                      <td>N. R. SWAMY COLLEGE OF COMMERCE & ECONOMIC & SMT. THIRUMALI COLLEGE OF SCIENCE</td>
+                      <td>MAHARASHTRA BOARD</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>S.S.C</td>
+                      <td>KAMARAJ MEMORIAL ENGLISH HIGH SCHOOL & JR.COLLEGE</td>
+                      <td>MAHARASHTRA BOARD</td>
+                      <td>2015</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+          <div class="tab-pane fade" id="pills-Experience" role="tabpanel" aria-labelledby="pills-Experience-tab">
+            <dl class="row">
+              <dt class="col-sm-1 text-primary">1 :-</dt>
+              <dd class="col-sm-11 text-dark">Asp.net Fundamental.</dd>
+              <dt class="col-sm-1 text-primary">2 :-</dt>
+              <dd class="col-sm-11 text-dark">Asp.net OPPS.</dd>
+              <dt class="col-sm-1 text-primary">3 :-</dt>
+              <dd class="col-sm-11 text-dark">C#.</dd>
+              <dt class="col-sm-1 text-primary">4 :-</dt>
+              <dd class="col-sm-11 text-dark">Front End Development-HTML.</dd>
+              <dt class="col-sm-1 text-primary">5 :-</dt>
+              <dd class="col-sm-11 text-dark">Front End Development-CSS.</dd>
+          </dl>
+          </div>
+          <div class="tab-pane fade" id="pills-Certification" role="tabpanel" aria-labelledby="pills-Certification-tab">
+            <dl class="row">
+              <dt class="col-sm-1 text-primary">1 :-</dt>
+              <dd class="col-sm-11 text-dark">Asp.net Fundamental.</dd>
+              <dt class="col-sm-1 text-primary">2 :-</dt>
+              <dd class="col-sm-11 text-dark">Asp.net OPPS.</dd>
+              <dt class="col-sm-1 text-primary">3 :-</dt>
+              <dd class="col-sm-11 text-dark">C#.</dd>
+              <dt class="col-sm-1 text-primary">4 :-</dt>
+              <dd class="col-sm-11 text-dark">Front End Development-HTML.</dd>
+              <dt class="col-sm-1 text-primary">5 :-</dt>
+              <dd class="col-sm-11 text-dark">Front End Development-CSS.</dd>
+          </dl>
+          </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container pt-5" id="service">
+      <div class="container">
+          <div class="service position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Service</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+          </div>
+          <h1 class="h5 position-relative d-flex align-items-center justify-content-center text-dark"  data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">What I can Do For You</h1>
+        </div>
+        <div class="row row-box " data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+          <div class="col-lg-4 col-md-6 mb-4 mx-auto service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-laptop service-icon bg-primary text-white mr-3"></i> Web Design</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> Development</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-robot service-icon bg-primary text-white mr-3"></i> Apps Design</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-brands fa-android service-icon bg-primary text-white mr-3"></i> Apps Development</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-brands fa-searchengin service-icon bg-primary text-white mr-3"></i> Seo</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+              <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-pen-to-square service-icon bg-primary text-white mr-3"></i> Content Creating</div>
+              <div class="card-body text-dark text-center">
+                <h5 class="card-title">Success card title</h5> 
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Portfolio Start -->
+    <div class="container portFolio-card py-5" id="portFolio">
+      <div class="container">
+          <div class="service position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">PortFolio</h1>
+            <h1 class="position-absolute text-uppercase text-primary">My PortFolio</h1>
+          </div>
+        <div class="row portFolio-container" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 ">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 ">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card p-0">
+              <span style="background-image: url(./assets/portfolio.jpg);"></span>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>    
+    <!-- Portfolio End -->
+
+    <!-- Review Start -->
+    <div class="container-fluid py-5" id="review">
+      <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Clents Say</h1>
+          <h1 class="position-absolute text-uppercase text-primary">Review</h1>
+        </div>
+        <div class="container mt-5 mb-5" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+          <div class="row g-2">
+              <div class="col-md-4">
+                  <div class="card p-3 text-center px-4">
+                      <div class="user-image"> <img src="./assets/review.jpg" class="rounded-circle" width="80"> </div>
+                      <div class="user-content">
+                          <h5 class="mb-0">Bruce Hardy</h5> <span>Software Developer</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card p-3 text-center px-4">
+                      <div class="user-image"> <img src="./assets/review.jpg" class="rounded-circle" width="80"> </div>
+                      <div class="user-content">
+                          <h5 class="mb-0">Mark Smith</h5> <span>Web Developer</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card p-3 text-center px-4">
+                      <div class="user-image"> <img src="./assets/review.jpg" class="rounded-circle" width="80"> </div>
+                      <div class="user-content">
+                          <h5 class="mb-0">Veera Duncan</h5> <span>Software Architect</span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+       </div>
+      </div>  
+    <!-- Review End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+      <div class="container">
+          <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+              <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+          </div>
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+              <div class="col-lg-8">
+                <form>
+                  <div class="row mb-3">
+                    <label for="text"  class="col-sm-2 col-form-label text-dark">Your Name :-</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputEmail3">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label text-dark">Your Email :-</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label text-dark">Send Message :-</label>
+                    <div class="col-sm-10">
+                      <input type="textarea" class="form-control form-control-lg-5" id="colFormLabelLg" placeholder="Send Message">
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click To Submit">Submit</button>
+                </form>
+              </div>
+          </div>code
+      </div>
+  </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5">
+      <div class="container text-center py-5">
+          <div class="d-flex justify-content-center mb-4 footer-link">
+              <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+              <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-github" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub"></i></a>
+              <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>
+              <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-solid fa-map-location-dot" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Location"></i></a>
+              <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-instagram" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"></i></a>
+          </div>
+          <div class="d-flex justify-content-center mb-3">
+              <a class="text-white" href="#">Privacy</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Terms</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">FAQs</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Help</a>
+          </div>
+          <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Suraj</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Suraj</a>
+          </p>
+      </div>
+  </div>
+    <!-- Footer End -->
+
+    <!-- to go top -->
+    
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
