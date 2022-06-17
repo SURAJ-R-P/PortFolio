@@ -239,6 +239,12 @@ a:hover {
     color: blue
 }
 
+#status{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
 .footer-link a{
     
     display: inline-flex;
